@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="500dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#EE0024"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/img1"
+    android:src="@drawable/images"
+    android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:textStyle="bold"
+        android:text="UH-SNAP"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:textStyle="bold"
+        android:text="Something just broke"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btn1"
+        android:text="GO BACK"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+
+</LinearLayout>
+
