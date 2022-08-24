@@ -1,61 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="25dp"
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-android:id="@+id/edt1"
-        android:hint="Enter your first name"
-        />
-
-    <EditText
-        android:id="@+id/edt2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/edt1"
-        android:hint="Enter your last name"
 
 
-        />
 
-    <EditText
-        android:id="@+id/edt3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/edt2"
-        android:hint="Enter your email" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-android:id="@+id/edt4"
-        android:layout_below="@+id/edt3"
-        android:hint="Enter Password"
-        android:inputType="textPassword"/>
-
-    <EditText
-        android:id="@+id/edt5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/edt4"
-        android:hint="Confirm password"
-        android:inputType="textPassword" />
 
     <Button
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn1"
-        android:layout_below="@+id/edt5"
-        android:layout_centerInParent="true"
-        android:text="Submit"
-        />
+        android:text="Explicit" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit"
+        android:layout_below="@+id/btn1"
+/>
 
 
 </RelativeLayout>
