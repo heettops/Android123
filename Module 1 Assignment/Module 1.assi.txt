@@ -1,0 +1,19 @@
+Q1    :   What is software ?
+
+Ans 1 :   Software is a set of instructions, data or programs used to operate computers and execute specific tasks.
+
+Q2    :   Types of application
+
+Ans 2 :   There are four basic kinds of applications: “classical” application, online application, unsolicited application, and brief application.
+
+Q3    :   What is mobile application ?
+
+Ans 3 :   A mobile app is a software application developed specifically for use on small, wireless computing devices, such as smartphones and tablets, rather than desktop or laptop computers
+
+Q4    :   Difference between mobile application and web application
+
+Ans 4 :   Mobile apps live and run on the device itself. Snapchat, Instagram, Google Maps, and Facebook Messenger are some examples of popular mobile apps. Web apps, on the other hand, are accessed via the internet browser and will adapt to whichever device you're viewing them on
+
+Q5    :   Who developed the android ?
+
+Ans 5 :   Andy rumin , Rich miner , Nick sears
