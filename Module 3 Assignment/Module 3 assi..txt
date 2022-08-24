@@ -1,0 +1,14 @@
+Q1 : What is R Java file ?
+
+ans 1 : R.java is an auto-generated file by android studio that contains resource IDs for all the resources of res/ directory.
+
+Q2 : what is activity and activity lifecycle ?
+
+ans 2 : An activity is the single screen in android. By the help of activity, you can place all your UI components or widgets in a single screen.
+        An Android activity goes through six major lifecycle stages or callbacks. These are: onCreate() , onStart() , onResume() , onPause() , onStop() , and onDestroy().
+
+Q3 : What is fragment life cycle ? 
+
+Ans 3 : Each Fragment instance has its own lifecycle. When a user navigates and interacts with your app, your fragments transition through various states in their lifecycle as they are added, removed, and enter or exit the screen.
+
+
