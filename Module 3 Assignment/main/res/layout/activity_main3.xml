@@ -6,14 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity3">
 
-    <Button
-
-        android:id="@+id/btn3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Welcome to amazon"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/download"
+    android:background="@color/black"/>
 </RelativeLayout>
-
-
