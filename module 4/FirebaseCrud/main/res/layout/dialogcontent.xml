@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:text="Update Control Panel"
+        android:background="@color/design_default_color_primary_dark"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt1"
+        android:hint="Name"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt2"
+        android:hint="Course"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt3"
+        android:textColor="@color/white"
+        android:hint="E-mail"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        />
+
+     <Button
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:id="@+id/btn1"
+         android:text="Update"
+         android:textSize="22sp"
+         android:background="@color/design_default_color_primary_dark"
+         android:textColor="#fff"
+         android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
